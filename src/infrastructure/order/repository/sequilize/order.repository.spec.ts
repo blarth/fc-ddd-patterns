@@ -157,15 +157,15 @@ it("should change the order items for a existing order", async () => {
       2
       );
       
-    orderItem.changeProduct(product2)
-    orderItem.changeQuantity(3)
-        
-  const order = new Order("123", "123", [orderItem]);
-  const orderRepository = new OrderRepository();
-  await orderRepository.create(order);     
-  order.changeOrderItems([orderItem])
-  await orderRepository.update(order)  
-  const orderModel = await OrderModel.findOne({
+      
+      const order = new Order("123", "123", [orderItem]);
+      const orderRepository = new OrderRepository();
+      await orderRepository.create(order);     
+      orderItem.changeProduct(product2)
+      orderItem.changeQuantity(3)
+    order.changeOrderItems([orderItem])
+    await orderRepository.update(order)  
+    const orderModel = await OrderModel.findOne({
           where: { id: order.id },
           include: ["items"],
         });
