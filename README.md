@@ -1,13 +1,15 @@
 # fc-ddd-patterns
+
 fc-ddd-patterns is a project focused on learning and applying Domain-Driven Design (DDD) patterns. It provides a set of code examples and practical implementations to help developers understand and utilize DDD concepts effectively.
 
 ## Table of Contents
-### Introduction
-### Installation
-### Usage
-### Examples
-### Contributing
-### License
+### - Introduction
+### - Installation
+### - Usage
+### - Examples
+### - Contributing
+### - License
+
 
 ### Introduction
 Domain-Driven Design is an approach to software development that emphasizes a deep understanding of the business domain and uses a strategic and tactical design to create a flexible and maintainable software system. The fc-ddd-patterns project aims to provide a hands-on learning experience for DDD by presenting various scenarios and practical implementations of DDD patterns.
@@ -19,15 +21,16 @@ To get started with fc-ddd-patterns, follow these steps:
 
 Clone the repository:
 
-bash
-Copy code
+```
 git clone https://github.com/blarth/fc-ddd-patterns.git
+```
 Install the required dependencies:
-
-bash
-Copy code
+```
 cd fc-ddd-patterns
 npm install
+```
+
+
 ### Usage
 The project provides a collection of code examples and implementations of DDD patterns. Each example is self-contained and can be run independently. To explore a specific DDD pattern or concept, navigate to the corresponding directory and examine the code.
 
@@ -49,16 +52,18 @@ Fork the repository.
 
 Create a new branch for your feature or improvement:
 
-bash
-Copy code
+```
 git checkout -b my-feature
+```
+
 Make your changes and commit them with descriptive messages.
 
 Push your changes to the forked repository:
 
-bash
-Copy code
+```
 git push origin my-feature
+```
+
 Open a pull request on the original repository and provide a clear description of your contribution.
 
 Your contribution will be reviewed and merged if it aligns with the project's goals.
